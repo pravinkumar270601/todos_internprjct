@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;200&family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;1,700&family=Open+Sans:wght@300;400&display=swap');
+
+
+*{
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: 'Foldit', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Mulish', sans-serif;
+  font-family: 'Open Sans', sans-serif; */
+  }
+
+html{
+  margin: -22px; 
+  padding: 0px;
+
+}
+
+
+.bg-img{  
+ 
+  background-image: linear-gradient(35deg,rgb(0, 0, 0,0.3), rgb(0, 0, 0,0.3)), url("./media/Todos-bg.jpg");
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+   
+}
+
+.heading{
+  color: white;
+  font-size: 35px;
+}
+
+.App{
+  width: 500px;
+  margin: 0px auto;
+  position: relative;
+  top:50px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color:white;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3), 10px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Enter-list{
+ 
+  width: 500px;
+  margin: 20px auto;
+  position: relative;
+  top:50px;
+
+}
+
+header{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 43px;
+    font-size: 18px;
+    
+}
+
+main{
+
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items: center;
+
+}
+
+ul{
+  
+  width: 100%;
+}
+
+.li-tiem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 0 .5rem .5rem ;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(180, 180, 180);
+
+}
+
+
+.li-tiem input[type="checkbox"] {
+  width: 4px;
+  height: 23px;
+  cursor: pointer;
+  margin-right: 1.8rem;
+}
+
+.li-tiem input[type="checkbox"]::before {
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid rgb(180, 180, 180);
+}
+
+
+.add-list input[type="checkbox"] {
+  width: 4px;
+  height: 23px;
+  cursor: pointer;
+  margin-right: 1.8rem;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.add-list input[type="checkbox"]::before {
+  content: "";
+  display: inline-block;
+  width: 27px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid rgb(180, 180, 180);
+  cursor: not-allowed;
+
+}
+
+
+
+.chng-bg{
+  background-color: rgb(253, 253, 253);
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+label:hover{
+
+  color: rgb(11, 2, 2,0.7);
+
+}
+
+.itm-label{
+  color: rgb(0, 0, 0);
+  /* font-size: 22px; */
+  margin-left: 10px;
+}
+
+
+.li-tiem .delbut{
+  font-size: 32px;
+  color: rgb(239 239 239);
+  cursor: pointer;
+  background-color: #ff6c6c;;
+  padding: 6px;
+  border-radius: 18px;
+}
+
+
+.addlist-input{
+  padding: 22PX;
+  width:100%;
+  font-size: 17px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: 1px solid white;
+}
+
+.addlist-input:focus{
+  border: 1px solid white;
+
+}
+
+
+.serchlist{
+  padding: 10PX;
+  width: 340px;
+  margin-bottom: 9px;
+  
+}
+
+.delbut{ 
+   margin-right: 22px;
+  
+}
+
+
+footer{
+  background-color: rgb(255, 206, 100, 0.8);
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-grow: 1;
+  align-content: center;
+  justify-content:center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 43px;
+  
+}  
+
+.add-list{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+
+}
+
+
+.list-count{
+  font-size: 30px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+
+.add-button{
+  margin: 10px;
+font-size: 18px;
+cursor: pointer;
+}
+
+.add-button-out{
+  background-color: rgb(58, 198, 15);
+}
+ 
+.empt-list{
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.total-task{
+  color: rgb(16, 15, 15);
+}
+
+.myflex{
+
+  margin-bottom: 13px;
+
+
+}
+
+.myflex >p{
+
+  padding: 10px;
+}
+
+.myflex >button{
+
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 7px;
+  font-size: 15px;
+  border: 2px solid  rgb(106, 90, 205);
+  color: rgb(106, 90, 205);
+}
+
+
+.myflex .active{
+
+  background-color: rgb(106, 90, 205);
+  color: white;
+
+  
+}
+
+input:focus {
+  
+  outline: none
+  
+}
+
+
+.x-mark{
+  color: red;
+  position: absolute;
+  left: 12px;
+  font-size: 27px;
+  bottom: 15px;
+}
+
+#myIcon{
+  
+  font-size: 31px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to right, #f472b6,#7c3aed);
+    color: #ffffff;
+    padding: 2px;
+	
+  
+}
+
